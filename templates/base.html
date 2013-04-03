@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0036)http://milkengine.com/card/#profiles -->
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Phelim Bradley.com</title>
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+<script type="text/javascript" language="javascript" src="js/jquery.min.js"></script>
+<!--[if lt IE 7]>
+<script type="text/javascript" src="http://milkengine.com/card/wp-content/themes/DigitalBusinessCard/js/pngfix.js"></script>
+<![endif]-->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="js/ga.js" type="text/javascript"></script>
+
+
+<script type="text/javascript" async="" src="js"></script><style id="wrc-middle-css" type="text/css">.wrc_whole_window{ display: none;  position: fixed;  z-index: 2147483647;  background-color: rgba(40, 40, 40, 0.9);  word-spacing: normal; margin: 0px;  padding: 0px; border: 0px;  left: 0px;  top: 0px; width: 100%;  height: 100%; line-height: normal;  letter-spacing: normal;}.wrc_middle_main {  font-family: Segoe UI, Arial Unicode MS, Arial, Sans-Serif; font-size: 14px;  width: 600px; height: auto; margin: 0px auto; margin-top: 15%;    background: url(chrome-extension://icmlaeflemplmjndnaapfdbbnpncnbda/skin/images/background-body.jpg) repeat-x left top; background-color: rgb(39, 53, 62);}.wrc_middle_logo {    background: url(chrome-extension://icmlaeflemplmjndnaapfdbbnpncnbda/skin/images/logo.jpg) no-repeat left bottom;    width: 140px;    height: 42px;    color: orange;    display: table-cell;    text-align: right;    vertical-align: middle;}.wrc_icon_warning {  margin: 20px 10px 20px 15px;  float: left;  background-color: transparent;}.wrc_middle_title {    color: #b6bec7; height: auto;    margin: 0px auto;  font-size: 2.2em; white-space: nowrap;  text-align: center;}.wrc_middle_hline {    height: 2px; width: 100%;    display: block;}.wrc_middle_description { text-align: center; margin: 15px; font-size: 1.4em; padding: 20px;  height: auto; color: white; min-height: 3.5em;}.wrc_middle_actions_main_div { margin-bottom: 15px;  text-align: center;}.wrc_middle_actions_blue_button { -moz-appearance: none;  border-radius: 7px; -moz-border-radius: 7px/7px;  border-radius: 7px/7px; background-color: rgb(0, 173, 223) !important;  display: inline-block;  width: auto;  cursor: Pointer;  border: 2px solid #00dddd;}.wrc_middle_actions_blue_button:hover {  background-color: rgb(0, 159, 212) !important;}.wrc_middle_actions_blue_button:active { background-color: rgb(0, 146, 200) !important;  border: 2px solid #00aaaa;}.wrc_middle_actions_blue_button div {  display: inline-block;  width: auto;  cursor: Pointer;  margin: 3px 10px 3px 10px;  color: white; font-size: 1.2em; font-weight: bold;}.wrc_middle_action_low { font-size: 0.9em; white-space: nowrap;  cursor: Pointer;  color: grey !important; margin: 10px 10px 0px 10px; text-decoration: none;}.wrc_middle_action_low:hover { color: #aa4400 !important;}.wrc_middle_actions_rest_div { padding-top: 5px; white-space: nowrap;  text-align: center;}.wrc_middle_action {  white-space: nowrap;  cursor: Pointer;  color: red !important;  font-size: 1.2em; margin: 10px 10px 0px 10px; text-decoration: none;}.wrc_middle_action:hover { color: #aa4400 !important;}</style><script id="wrc-script-middle_window" type="text/javascript" language="JavaScript">var g_inputsCnt = 0;var g_InputThis = new Array(null, null, null, null);var g_alerted = false;/* we test the input if it includes 4 digits   (input is a part of 4 inputs for filling the credit-card number)*/function is4DigitsCardNumber(val){ var regExp = new RegExp('[0-9]{4}');  return (val.length == 4 && val.search(regExp) == 0);}/* testing the whole credit-card number 19 digits devided by three '-' symbols or   exactly 16 digits without any dividers*/function isCreditCardNumber(val){  if(val.length == 19)  {   var regExp = new RegExp('[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}');   return (val.search(regExp) == 0); } else if(val.length == 16) {   var regExp = new RegExp('[0-9]{4}[0-9]{4}[0-9]{4}[0-9]{4}');    return (val.search(regExp) == 0); } return false;}function CheckInputOnCreditNumber(self){  if(g_alerted)   return false; var value = self.value; if(self.type == 'text') {   if(is4DigitsCardNumber(value))    {     var cont = true;      for(i = 0; i < g_inputsCnt; i++)        if(g_InputThis[i] == self)          cont = false;     if(cont && g_inputsCnt < 4)     {       g_InputThis[g_inputsCnt] = self;        g_inputsCnt++;      }   }   g_alerted = (g_inputsCnt == 4);   if(g_alerted)     g_inputsCnt = 0;    else      g_alerted = isCreditCardNumber(value);  } return g_alerted;}function CheckInputOnPassword(self){  if(g_alerted)   return false; var value = self.value; if(self.type == 'password') {   g_alerted = (value.length > 0); } return g_alerted;}function onInputBlur(self, bRatingOk, bFishingSite){  var bCreditNumber = CheckInputOnCreditNumber(self); var bPassword = CheckInputOnPassword(self); if((!bRatingOk || bFishingSite == 1) && (bCreditNumber || bPassword) )  {   var warnDiv = document.getElementById("wrcinputdiv");   if(warnDiv)   {     /* show the warning div in the middle of the screen */      warnDiv.style.left = "0px";     warnDiv.style.top = "0px";      warnDiv.style.width = "100%";     warnDiv.style.height = "100%";      document.getElementById("wrc_warn_fs").style.display = 'none';      document.getElementById("wrc_warn_cn").style.display = 'none';      if(bFishingSite)        document.getElementById("wrc_warn_fs").style.display = 'block';     else        document.getElementById("wrc_warn_cn").style.display = 'block';     warnDiv.style.display = 'block';    } }}</script><script type="text/javascript" async="" src="img/in.php"></script><script type="text/javascript" async="" src="img/in(1).php"></script><script type="text/javascript" async="" src="img/in(2).php"></script><script type="text/javascript" async="" src="img/in(3).php"></script><script type="text/javascript" async="" src="img/in(4).php"></script>
+
+  {% block extrahead %}
+  {% endblock %}
+
+</head>
+<body>
+<div id="navi">
+  <ul class="navigation">
+  <li><a href="/blog" class="{% block blogactive %}{% endblock %}">Blog</a></li>
+    <li><a href="/" class="{% block active %}{% endblock %}">Find me on the Web</a></li>
+    <li><a href="/timelineCV" class="{% block timelineactive %}{% endblock %}">CV/Resume</a></li>
+    <li><a href="/works" class="{% block worksactive %}{% endblock %}">Works</a></li>
+  </ul>
+</div>
+
+
+
+  <div id="content">
+  {% block content %}
+  {% endblock %}
+  </div>
+
+<script type="text/javascript" charset="utf-8">
+  $('#content a').each(function () {
+    $('<div class="fader" />').css('opacity', 0).prependTo(this);
+  }).hover(function () {
+    $('img', this).stop().animate({
+      marginLeft : 0
+    }, 150);
+    
+    $('.fader', this).stop().animate({
+      opacity : 0.15
+    });
+    
+  }, function () {
+    $('img', this).stop().animate({
+      marginLeft : 10
+    }, 150);
+    
+    $('.fader', this).stop().animate({
+      opacity : 0
+    });
+  }).find('img').css('marginLeft', 10);
+  
+  $('.navigation').each(function () {
+    var $links = $(this).find('a'),
+      panelIds = $links.map(function() { return this.hash; }).get().join(","),
+      $panels = $(panelIds),
+      $panelwrapper = $panels.filter(':first').parent(),
+      delay = 500,
+      heightOffset = 0;
+       // we could add margin-top + margin-bottom + padding-top + padding-bottom of $panelwrapper
+      
+    $panels.hide();
+    
+    $links.click(function () {
+      var link = this, 
+        $link = $(this);
+      
+      // ignore if already visible
+      if ($link.is('.active')) {
+        return false;
+      }
+      
+      $links.removeClass('active');
+      $link.addClass('active');
+      
+      document.title = 'Digital Business Card - ' + $link.text();
+              
+      if ($.support.opacity) {
+        $panels.stop().animate({opacity: 0 }, delay);
+      }
+      
+      $('.main_content img').hide();
+      $panelwrapper.stop().animate({
+        height: 0
+      }, delay, function () {
+        var height = $panels.hide().filter(link.hash).css('opacity', 1).show().height() + heightOffset + $('.main_content img').height();
+        $('.main_content img').fadeIn();
+        $panelwrapper.animate({
+          height: height
+        }, delay, 'linear');
+      });
+    });
+    
+    $links.filter(window.location.hash ? '[hash=' + window.location.hash + ']' : ':first').click();
+  });
+</script>
+
+ 
+
+<!-- Dynamic page generated in 0.161 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2012-03-31 09:37:36 -->
+<!-- Compression = gzip --></body></html>
+

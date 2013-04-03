@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+
+  {% block extrahead %}
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+  <link type="text/css" rel="stylesheet" href="css/main.css" />
+
+  <title>Phelim's Blog</title>
+  {% endblock %}
+  {% block blogactive %}active{% endblock %}
+  {% block content %}
+  <h1><a href="/blog">
+    Phelim's Blog
+  </a></h1>
+
+  <div id="content">
+  {% block blogcontent %}
+  {% endblock %}
+  </div>
+  {% endblock %}
+

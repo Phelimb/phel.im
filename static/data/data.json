@@ -1,0 +1,238 @@
+
+{
+    "timeline":
+    {
+        "headline":"Phelim Bradley",
+        "type":"default",
+		"startDate":"2008",
+		"text":"<i><span class='c1'>BSc Physics 2012 | MPhil Computational Biology student</span>",
+		"asset":
+        {
+            "media":"img/timeline/notes.png",
+            "credit":"",
+            "caption":""
+        },
+        "date": [
+            {
+                "startDate":"2008,6",
+                "headline":"Graduated Christian Brothers College",
+                "text":"<p>Graduated with maximum points (600/600) in <a href='http://www2.cao.ie/app_scoring/points_stats/LC10PTS.pdf'>top 0.2% of the country.</a></p><p>Selected to compete in the National Physics and Chemistry Olympiads</p>",
+                "asset":
+                {
+                    "media":"img/timeline/gradcbc.png",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2008,9",
+                "headline":"Accepted into University College Cork to study a B.Sc in Physics and Astrophysics",
+                "text":"<p>Received Full Academic Entrance Scholarship </p>",
+                "asset":
+                {
+                    "media":"img/timeline/UCCScholarship.png",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2012,06",
+                "headline":"Graduated with a B.Sc First Class Honours in Physics from University College Cork",
+                "text":"<p><a href='/img/timeline/UCCTranscript.pdf'> Transcript</a></p><p>1st Class Honours</p><p>Received the John A. Delaney Memorial Prize in Physics for the best performance in Physics</p><p>Awarded title of College Scholar and additional scholarship.</p>",
+                "asset":
+                {
+                    "media":"http://www2.sbac.edu/~wpops/district/Gradua2.gif",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2011,11",
+                "headline":"First scientific paper published ",
+                "text":"<p>How Kondo Holes Create Intense Nanoscale Heavy-Fermion Hybridization Disorder - (Proc. Nat'l Acad. Sci. 108, 18233 - Nov 2011)</p><p><a href='http://www.pnas.org/content/early/2011/10/14/1115027108.abstract'>Published Article</a><a href='http://people.ccmr.cornell.edu/~jcdavis/publicationPDF/PNAS_108_18233.pdf'> Download PDF</a></p>",
+                "asset":
+                {
+                    "media":"img/timeline/highlight22.png",
+                    "credit":"<a href='http://people.ccmr.cornell.edu/~jcdavis/highlights.html'>Davis Group Cornell</a>",
+                    "caption":"Electronic structure of Kondo holes in the Th-doped heavy Fermion compound URu2Si2 is visualized sith STM to find heterogeneous hybridization strength in nanoscale"
+                }
+            },
+            {
+                "startDate":"2011,8,5",
+                "headline":"Presented at <a href='http://caleducamp.wikispaces.com/'>Cal Educamp</a>, University of California, Berkeley",
+                "text":"<a href='http://www.slideshare.net/phelimbradley/search-and-find-metadata-in-education'>Search and find – Metadata in Learning Resources.</a>",
+                "asset":
+                {
+                    "media":"http://www.slideshare.net/phelimbradley/search-and-find-metadata-in-education",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2012,4",
+                "headline":"Completed Final Year Project with Nanotechnology Group Tyndall National Institute, Cork",
+                "text":"<p>Researched Conductance correlation analysis of feedback-controlled electromigration of nanoscale wires</p><p><a href='docs/FYPreport.pdf' > Final Report</a> <a href='http://www.slideshare.net/phelimbradley/quantised-conductance-in-self-breaking-nanowires'> Final Presentation</a></p><p><a href='www.tyndall.ie/node/2614'> Supervisor: Dr. Aidan Quinn</p>",
+                "asset":
+                {
+                    "media":"img/timeline/3dbarPT1.png",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2011,5",
+                "endDate":"2011,8",
+                "headline":"Metadata standards in online open educational resources",
+                "text":"<p><a href='http://bit.ly/H9jkjZ' >Overview of Metadata Standards for Learning Resources: Lessons for the Learning Resource Metadata Initiative </a></p> <p>Supervisors: <a href='www.stat.berkeley.edu/~pitman/'>Prof. Jim Pitmann</a> <a href='www.ischool.berkeley.edu/people/faculty/briancarver'> Ast. Prof Brian Carver</a> </p>",
+                "asset":
+                {
+                    "media":"http://www.slideshare.net/phelimbradley/search-and-find-metadata-in-education",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2011,8,4",
+                "headline":"Won a <a href='http://box.net'> Box.net</a> sponsored hackathon at the Stanford Ventures Initiative hackspace.",
+                "text":"<p><a href='http://svihackspace.com/hackathon-delicious-box-net-tags/' >SVI blog entry</a></p>",
+                "asset":
+                {
+                    "media":"http://www.youtube.com/watch?v=qiaCPZOdKEE",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2010,9",
+                "endDate":"2010,12",
+                "headline":"<a href='http://weak0.physics.berkeley.edu/weakint/'>Weak Interactions Group, UC Berkeley</a>",
+                "text":"<p>Designed using SolidWorks part of a very low temperature apparatus</p><p>Completed 3 month machine shop course</p>",
+                "asset":
+                {
+                    "media":"img/timeline/dscn0859.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            }
+            ,
+            {
+                "startDate":"2010,6",
+                "endDate":"2010,8",
+                "headline":"Undergraduate research Davis Group, Cornell University, Ithaca NY",
+                "text":"<p>MatLab analysis into Heavy-Fermion Hybridization Disorder.</p><p>Worked with SolidWorks design program(CAD) on an improvement for the STM</p>",
+                "asset":
+                {
+                    "media":"img/timeline/Davisimg.png",
+                    "credit":"",
+                    "caption":""
+                }
+            } ,
+            {
+                "startDate":"2012,1",
+                "endDate":"2012,4",
+                "headline":"Physics Lab Teaching Assistant. University College Cork",
+                "text":"Lab demonstrator teaching introductory experimental physics to 1st year Biomedical Science students",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            } ,
+            {
+                "startDate":"2011,9",
+                "endDate":"2011,12",
+                "headline":"Computational Physics Teaching Assistant. University College Cork",
+                "text":"<p>2nd year physics computational physics lab</p><p>Course taught through MatLab</p>",
+                "asset":
+                {
+                    "media":"img/timeline/matlab.png",
+                    "credit":"",
+                    "caption":""
+                }
+            } ,
+            {
+                "startDate":"2011,5",
+                "endDate":"2011,8",
+                "headline":"Resident Assistant, International House Berkeley. UC Berkeley.",
+                "text":"<p>Assessed and responded to the needs of over 500 residents</p><p> Acted as a liaison between residents and Department of Residence Life</p><p> Counseled peers on personal, academic, and career concerns</p><p> Managed various administrative duties including maintenance requests, incident reports, and room transfers</p><p>Enforced and upheld residential halls policies</p><p>Ref :<a href='mailto:chabe@berkeley.edu'> Maribel Guillermo </a></p>",
+                "asset":
+                {
+                    "media":"img/timeline/ihouse.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            } ,
+            {
+                "startDate":"2012,3",
+                "headline":"Fulbright Student Award",
+                "text":"<p>Awarded by Fulbright Commission, Ireland.</p><p></p>",
+                "asset":
+                {
+                    "media":"img/timeline/Fulbright_Logo.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            } ,
+            {
+                "startDate":"2012,3,26",
+                "headline":"Irish Young Entrepreneur StartUp Final",
+                "text":"One of the final 6 candidates in the <a href='http://www.collegeroad.ie/services/youngstartup.html'>Irish Young Entrepreneur StartUp</a> final",
+                "asset":
+                {
+                    "media":"img/timeline/YES.png",
+                    "credit":"",
+                    "caption":""
+                }
+            } ,
+            {
+                "startDate":"2009,9",
+                "endDate":"2010,5",
+                "headline":"Private Tutor in Physics, Maths and Science (to ages 15-20)",
+                "text":"<p>Taught in group and individual sessions designing individual curricula</p><p>Taught levels ranging from high school physics and math to introductory 3rd level physics </p>",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2012,9",
+                "endDate":"2013,9",
+                "headline":"Reading Computational Biology at Fitzwilliam College Cambridge",
+                "text":"<p>Recieved fees studentship to the value of €7,750  </p> <p> Webmaster for <a href='http://mcr.fitz.cam.ac.uk' > Fitz MCR </a> </p> <p>President for Cambridge Dinghy Club</p>",
+                "asset":
+                {
+                    "media":"img/timeline/fitzCrest.png",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2013,5",
+                "endDate":"2013,8",
+                "headline":"Illumina Internship",
+                "text":"<p>Worked at Illumina on a project on 'Learning models for predicting the quality of genetic variant calls from DNA sequencing data'</p>",
+                "asset":
+                {
+                    "media":"img/timeline/illumina.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2013,10",
+                "endDate":"2017,10",
+                "headline":"DPhil Genomic Medicine and Statistics Trinity College Oxford, UK",
+                "text":"<p>Wellcome trust funded graduate program at the Oxford Centre for Human Genetics</p>",
+                "asset":
+                {
+                    "media":"img/timeline/ox.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            }
+        ]
+    }
+}
